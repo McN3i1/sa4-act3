@@ -17,5 +17,7 @@ while True:
     if guess_input == number:
         print("Congratulations! You guessed the right number.")
         break
+    elif guess_input < number:
+        print("Too low! Try again.")
     else:
-        print(f"Sorry! The number was {number}.")
+        print("Too high! Try again.")
